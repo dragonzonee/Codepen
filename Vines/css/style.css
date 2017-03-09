@@ -1,0 +1,27 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.small{
+	background: url(../images/leaf-small.png) repeat-x;
+	background-position: 20% 0;
+}
+
+
+.middle{
+	background: url(../images/leaf-middle.png) repeat-x;
+	background-position: 40% 0%;
+	background-color: transparent;
+	height: 100%;
+	width: 100%;
+}
+
+
+.large{
+	background: url(../images/leaf-large.png) repeat-x;
+	background-position: 60% 0;
+	background-color: transparent;
+	height: 100%;
+	width: 100%;
+}
