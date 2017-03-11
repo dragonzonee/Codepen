@@ -1,0 +1,31 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Trade Winds', cursive;
+}
+
+
+.warpper1{
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	font-size: 80px;
+	position: absolute;
+	padding-top: 20%;
+}
+
+.warpper2{
+	width: 100%;
+	height: 100%;
+	padding-top: 20%;
+	text-align: center;
+	position: absolute;
+	font-size: 80px;
+	color: red;
+	/*transform: translate(1em,-0.2em);*/
+}
