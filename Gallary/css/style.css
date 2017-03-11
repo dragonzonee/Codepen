@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+caption{
+	padding: 2em 0;
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #333;
+	box-shadow: 1px 4px 2px black;
+	color: white;
+	font-size: 25px;
+
+}
+
+table{
+	width: 55%;
+	height: auto;
+	margin: auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+
+td{
+	position: relative;
+	border: #777 solid 1px;
+	overflow: hidden;
+	height: 300px;
+}
+
+td::after{
+	position: absolute;
+	background: linear-gradient(to bottom,rgba(67, 17, 51, 0.1),rgba(21, 10, 31, 0.9));
+	content: "";
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+h2{
+	position: absolute;
+	bottom: .3em;
+	left: 1em;
+	font-weight: 300;
+	color: white;
+	z-index: 3;
+	font-size: 16px;
+}
+
+
+
+table tbody td div{
+	color: white;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: rgba(25, 1, 21, 0.8);
+	will-change:transform;
+	transform: translateY(100%);
+	transition: 0.3s ease-in-out;
+	visibility: hidden;
+}
+
+
+table tbody tr:hover td:hover ~td div{
+	transform: translateY(0);
+	transform: translateX(-100%);
+}
+
+table tbody tr:hover div{
+	transform: translateY(0);
+	transform: translateX(100%);
+}
+
+table tbody td:hover div{
+	transform: none;
+	visibility: visible;
+}
+
+table tbody td:hover section{
+	transform: scale(1.3);
+	transform-origin: center;
+}
+
+table tbody section{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: 0.3s ease-in-out;
+}
+
+table tbody #pic1{
+	background: url(../images/pic1-1.png) no-repeat center;
+	background-size: 100%;
+}
+
+
+table tbody #pic2{
+	background: url(../images/pic2.jpg) center no-repeat;
+	background-size: auto 100%;
+}
+
+
+table tbody #pic3{
+	background: url(../images/pic3.jpg) no-repeat center;
+	background-size: auto 100%;
+}
+
+
+table tbody #pic4{
+	background: url(../images/pic4.jpg) no-repeat center;
+	background-size: auto 100%;
+}
+
+
+table tbody #pic5{
+	background: url(../images/pic5.jpg) no-repeat center;
+	background-size: auto 100%;
+}
+
+
+table tbody #pic6{
+	background: url(../images/pic6.jpg) no-repeat center;
+	background-size: auto 100%;
+}
+
+
+table tbody #pic7{
+	background: url(../images/pic7.jpg) no-repeat center;
+	background-size: auto 100%;
+}
+
+table tbody #pic8{
+	background: url(../images/pic8.jpg) no-repeat center;
+	background-size: auto 100%;
+}
+
+table tbody #pic9{
+	background: url(../images/pic9-1.jpg) no-repeat center;
+	background-size: 100%;
+}
