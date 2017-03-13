@@ -7,19 +7,14 @@ var length=sentence.innerHTML.length;
 function typeEffect(){
   tem_word = sentence.innerHTML.substring(0,num);
   sentence.innerHTML=tem_word;
-  if(num==length){
-    clearInterval(timer);
-  }else{
-    num++;
-  }
+  ifrepeat();
   timer=setInterval("typeEffect()",1200);
 }
 
-/*function ifrepeat(){
+function ifrepeat(){
   if(num==length){
     clearInterval(timer);
   }else{
     num++;
   }
 }
-*/
