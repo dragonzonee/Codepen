@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.warpper{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.warpper .dot-warpper{
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 80px;
+	height: 50px;
+	background: blue;
+	margin: auto;
+}
+
+.dot-warpper .dot{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+}
