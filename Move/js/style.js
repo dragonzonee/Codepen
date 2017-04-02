@@ -12,11 +12,11 @@ function move () {
 		}
 
 		if (left>=900){
-				isback = true;
+			isback = true;
 		}
 
 		if(left<=0){
-				isback = false;
+			isback = false;
 		}
 
 		div2.style.left=left+"px";
